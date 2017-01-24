@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">papyha</string>
+    <string name="browse">Browse</string>
+    <string name="mylibrary">My Library</string>
+    <string name="search">Search</string>
+    <string name="font_avenir_next">AvenirNext</string>
+    <string name="font_limelight">Limelight</string>
+    <string name="font_TsukuBRoundGothic">TsukuBRoundGothic</string>
+</resources>

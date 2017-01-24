@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <tab
+        id="@+id/action_browse"
+        icon="@drawable/ic_browse"
+        title="@string/browse"
+        app:showAsAction="ifRoom" />
+    <tab
+        id="@+id/action_search"
+        icon="@drawable/ic_search"
+        title="@string/search"
+        app:showAsAction="ifRoom" />
+    <tab
+        id="@+id/action_my_library"
+        icon="@drawable/ic_my_library"
+        title="@string/mylibrary"
+        app:showAsAction="ifRoom" />
+</tabs>

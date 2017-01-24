@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="papyhaTheme" parent="papyhaTheme.Base">
+
+    </style>
+
+    <style name="papyhaTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorOrange</item>
+        <item name="colorPrimaryDark">@color/colorOrangeDark</item>
+        <item name="colorAccent">@color/colorAccentOrange</item>
+        <item name="android:windowBackground">@color/windowBackgroundGrey</item>
+    </style>
+    
+    <style name="bb_title_text">
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="sliding_tab_text">
+        <item name="android:textColor">@color/textDarkGrey</item>
+    </style>
+
+</resources>

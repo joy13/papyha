@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorOrange">#ff8533</color>
+    <color name="colorOrangeDark">#ff8533</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="windowBackgroundGrey">#f3f3f3</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccentOrange">#ff8533</color>
+    <color name="textDarkGrey">#666666</color>
+    <color name="textLightGrey">#888888</color>
+    <color name="readerTextBlack">#000000</color>
+    <color name="readerNightModeGrey">#666666</color>
+</resources>
