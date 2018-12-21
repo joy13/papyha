@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/card_margin"
+        android:elevation="5dp"
+        card_view:cardCornerRadius="@dimen/card_album_radius"
+        card_view:cardBackgroundColor="@color/colorWhite">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="MissingPrefix">
+
+            <ImageView
+                android:id="@+id/readlist_art"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/readlist_art_height"
+                android:paddingLeft="@dimen/readlist_art_padding"
+                android:paddingRight="@dimen/readlist_art_padding"
+                android:paddingTop="@dimen/readlist_art_padding"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/name_padding"
+                android:paddingRight="@dimen/name_padding"
+                android:paddingTop="@dimen/name_padding_top"
+                android:textColor="@color/colorOrange"
+                android:textSize="@dimen/readlist_name_text_size"
+                android:layout_below="@+id/readlist_art"/>
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/name"
+                android:paddingBottom="@dimen/name_padding"
+                android:paddingLeft="@dimen/name_padding"
+                android:paddingRight="@dimen/description_padding"
+                android:textColor="@color/textLightGrey"
+                android:textSize="@dimen/description_text_size" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
